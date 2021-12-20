@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+   
+}
+
+.goalBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5rem;
+    margin: .5rem;
+    border: 3px solid black;
+    border-radius: .5rem;
+    
+    
+}
+.goalItms{
+  margin: .2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.goalName{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.goalStatus{
+    font-size: 1.2rem;
+    border: 2px solid black;
+    font-weight: 500;
+    padding: .2rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+   
+}
+.taskBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.addTask{
+    font-size: 2.1rem;
+    font-weight: 500;
+    padding: .5rem;
+    margin: 1rem;
+    border: 3px solid violet;
+    border-radius: .5rem;
+    
+}
+.addBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form_part_1{
+    padding: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: .3rem;
+    background-color: rgb(196, 192, 192);
+}
+.form_part_input{
+    padding: .4rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#head_main_box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    #head_main{
+        font-weight: 500;
+        font-size: 3em;
+        color: black;
+    }
+    .head_main_itm{
+        font-size: 1.5em;
+        color: rgb(73, 72, 72);
+    }
+    
+    
+    #second_head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #second_head_main{
+        font-size: 1.7em;
+        font-weight: 500;
+        color: black;
+    }
+    .second_head_itm{
+        font-size: 1.3em;
+        color: rgb(73, 72, 72);
+    }
+    #second_head2{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #second_head1{
+    width: 30%;
+    margin: 5px;
+    }
+    
+    #nav_bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1.2em;
+        border-bottom: rgb(224, 215, 215) solid .5em;
+    
+    }
+    #nav_bar_itm_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .nav_bar_itm{
+        font-size: 1.4em;
+        color: rgb(73, 72, 72);
+        margin: 0.5em;
+        text-decoration: none;
+    
+    }
+    .nav_bar_itm:hover{
+      text-decoration: underline solid rgb(31, 25, 25);
+    }
+    #logo1{
+        font-size: 3em;
+    }
+    #logo2{
+        font-size: 1.6em;
+    }
+    
+    #section_why_crypto_que{
+        margin: .5em;
+        font-size: 2em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .section_why_crypto_box{
+        margin: .5em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .second_box_heading{
+        margin: .5em;
+        font-size: 1.5em;
+        color: rgb(65, 65, 65);
+        font-weight: 500;
+    }
+    .section_box_content{
+        font-size: 1.2em;
+        color: rgb(24, 22, 22);
+    }
+    .log_sub_section{
+        padding: .5rem;
+    }
+    
+    
+    .label_font{
+        font-size: 2rem;
+        color: rgb(56, 55, 55);
+    }
+    #login_button{
+        font-size: 1.6rem;
+        border-radius: .3rem;
+        outline: none;
+        background-color: rgb(248, 205, 205);
+        cursor: pointer;
+        color: black;
+        padding: .5rem;
+    }
+    #login_button:hover{
+        background-color: rgb(224, 215, 215);
+    }
+    #login_form{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 1rem;                                   
+        width: 50vw;
+    }
+    .login_input{
+        box-sizing: border-box;
+        border: none;
+        outline:none;
+        border-bottom: rgb(158, 155, 155) solid .1rem;
+        padding: .3rem;
+        font-size: 1.2rem;
+        margin:.7rem;
+        color: rgb(73, 72, 72);
+    }
+    .login_input:focus{
+        border-radius: 1rem;
+        border: .1rem solid grey;
+    }
+    #login_log_img{
+        width: 9rem;
+    }
+    
+    .forgot_signup{
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: grey
+    }
+    .forgot_signup:hover{
+        color: black;
+    }
+    #world_map{
+        width: 25%;
+        background-color: rgb(255, 255, 255);
+       
+    }
+    #greeting{
+        font-size: 3rem;
+        background-color: rgb(51, 51, 51);
+        color:rgb(244,164,96);
+        text-align: center;
+    }
+    #main_block_login{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000000;
+        background-color: #330033;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+        background-size: cover;
+    }
+    #subblock_login{
+        display: flex;
+        border-radius: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50vw;
+        margin: 1rem;
+    }
+    
+    
+    /* At the top level of your code */
+    @media screen and (max-width: 700px) {
+        #subblock_login{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: wheat;
+            width: 100%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #login_form{
+            background-color: rgb(218, 218, 218);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+      }
+    
+    
+    
+    #decision_signup_login{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 2.5rem;
+       
+        padding: .5rem;
+        
+    
+    }
+    #account_logo_img{
+        background-color: #330033;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill='%2306B' cx='45' cy='45' r='10'/%3E%3Cg fill='%23800' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");
+    
+    }
+    #decision_signup{
+        padding: .5rem;
+        border: .1rem solid salmon;
+        text-align: center;
+        border-radius: .3rem;
+        background-color: rgb(230, 160, 153);
+        color: rgb(59, 59, 59);
+        width: 20%;
+    
+    }
+    div#decision_signup a{
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+    }
+    #decision_login{
+        padding: .5rem;
+        border: .1rem solid #e947e9;
+        text-align: center;
+        border-radius: .5rem;
+        background-color: #da8cda;
+        color: rgb(59, 59, 59);
+        width: 20%;
+    
+    }
+    div#decision_login a{
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+    }
+    #account_logo{
+        width: 15%;
+        
+    }
+    @media screen and (max-width: 700px) {
+        #account_logo{
+            width: 40%;
+        }
+        #decision_signup{
+            padding: .5rem;
+            border: .1rem solid salmon;
+            text-align: center;
+            border-radius: .3rem;
+            background-color: rgb(230, 160, 153);
+            width: 40%;
+        
+        }
+        
+        #decision_login{
+            padding: .5rem;
+            border: .1rem solid #e947e9;
+            text-align: center;
+            border-radius: .5rem;
+            background-color: #da8cda;
+            width: 40%;
+        
+        }
+    
+    }
+        
+    
+    
+    #Bitcoin_label{
+        font-size: 1.5rem;
+        color: rgb(59, 59, 59);
+        font-weight: bold;
+        text-align: center;
+        padding: .5rem;
+        border: .1rem solid #e947e9;
+        border-radius: .5rem;
+        background-color: #da8cda;
+    }
+    .price{
+        font-size: 1.5rem;
+        color: rgb(59, 59, 59);
+        font-weight: bold;
+        text-align: center;
+        padding: .5rem;
+        border: .1rem solid #e947e9;
+        border-radius: .5rem;
+        background-color: #f5f0f5;
+    
+        margin: .2rem;
+    
+    }
+      
+    #coin_block{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        padding: .5rem;
+        width: 10%;
+        text-align: center;
+    }
+    .coin_img{
+        width: 100%;
+    }
+
+   
